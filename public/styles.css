@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body {
+    background-color: #f0fbff;
+    margin: 0;
+}
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:75%;
+}
+
+.card-body {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Gabarito', serif;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Gabarito', serif;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+header {
+    padding: 0.75rem;
+    border-bottom: 1px solid #bdb8b8;
+    background-color: #0b3171;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container .nav a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gabarito', serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: transform 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+.a-tabla {
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gabarito', serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin:4px;
+    margin-right: 0.5rem;
+    background: #cce4ed;
+    border-radius: 10px;
+
+}
+.a-tabla:hover {
+    background: #aec0c7;
+}
+
+.container .nav a:hover {
+    transform: translateY(-1px) scale(1.08);
+    border-bottom: 3px solid white;
+}
+
+.container svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+.error-message {
+    background-color: #dd3c3c;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Gabarito', serif;
+    margin-bottom: 2rem;
+}
+.file-upload {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Gabarito', serif;
+    color: #a3a2a2;
+    height: 6rem;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.custom-file-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    height:100%;
+    justify-content:center; 
+    max-width:100%;
+    word-break:break-all;
+
+}
+
+.file-label-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    justify-content:center; 
+}
+
+.form-group {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom:50px; 
+}
+
+.form-group label {
+    font-family: 'Gabarito', serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    width:30%;
+    
+}
+
+.form-group input[type="text"] {
+    font-family: 'Gabarito', serif;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.custom-button {
+    background-color: #0b3171; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-family: 'Gabarito', serif;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.custom-button:hover {
+    background-color: #204789;
+}
+.div-button{
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.alert-title{
+    font-family: 'Gabarito', serif;
+    color: black;
+}
+
+/* Estilos para la tabla */
+.custom-table {
+    width: 100%;
+    margin-bottom:2rem;
+    font-family: 'Gabarito', serif;
+
+    
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #d5d5d5 !important; /* Color de borde gris */
+    padding: 8px; 
+}
+
+.custom-table th {
+    background-color: #c6dbe3; 
+    border: 1px solid #c6dbe3 !important;
+}
+
+.custom-table th, .custom-table td {
+    text-align: center; 
+    
+}
+.custom-table td:first-child {
+    height:100%;
+    width:70%;
+    max-width:70%;
+    word-break:break-all;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button, .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info{
+    margin-bottom:1rem !important;
+    font-family: 'Gabarito', serif !important;
+}
+.dataTables_wrapper {
+    margin-bottom:1rem !important;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #aaa;
+    border-radius: 10px !important;
+    padding: 7px !important;
+    background-color: transparent;
+    color: inherit;
+    margin-left: 3px;
+    outline: none;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #aaa;
+    border-radius: 10px !important;
+    background-color: transparent;
+    color: inherit;
+    padding: 4px;
+    outline: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #0b3171 !important;
+    border: 1px solid #0b3171 !important;
+    outline:none !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
+{
+    background: transparent !important;
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+
+}.
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover
+{
+    background: transparent !important;
+    border: 1px solid transparent !important;
+
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled
+{
+    background: transparent !important;
+    border: 1px solid transparent !important;
+
+}
